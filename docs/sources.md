@@ -29,6 +29,7 @@
 | S10 | Sharma ほか「Towards Understanding Sycophancy in Language Models」(2023) | 研究論文 | 一部確認 |
 | S11 | Dunlosky ほか「Improving Students' Learning With Effective Learning Techniques」(2013) | 研究論文（総説） | 未確認 |
 | S12 | BABOK Guide v3（ビジネスアナリシスの知識体系） | 知識体系（有償） | 未確認 |
+| S13 | JSTQB「テスト技術者資格制度 Foundation Level シラバス」日本語版 | 資格団体のシラバス | 未確認 |
 
 ## 個別の記録
 
@@ -60,7 +61,8 @@
 - URL：https://www.jisc.go.jp/ （日本産業標準調査会。規格番号 X0166 で検索）
 - 読んだ範囲：なし（個人の解説メモなどの検索結果のみ）
 - 二次情報で見たこと：S04 と内容が一致する日本語の規格で、JISC のサイトで閲覧できるとされる。
-- 扱い：どちらも未確認。依頼者が JISC で閲覧できるか確かめる価値がある。
+- 追加で見たこと（2026-11-19）：図書館2館の利用案内に、JISC のサイトでは現行の JIS を画面で閲覧できるが、印刷とダウンロードはできない、と書かれているとされる。AI は検索結果の要約で見ただけで、案内そのものも JISC のサイトも開いていない。
+- 扱い：どちらも未確認。画面で見るだけの場合、AI は読めない。依頼者が読みたいときに、ブラウザで読む。
 
 ### S06 IPA「ユーザのための要件定義ガイド 第2版」
 - URL：https://www.ipa.go.jp/archive/digital/iot-en-ci/jyouryuu/youkenteigi20190912.html
@@ -108,3 +110,9 @@
 ### S12 BABOK Guide v3
 - 読んだ範囲：なし（有償）
 - 扱い：名前を挙げるだけにとどめる。
+
+### S13 JSTQB Foundation Level シラバス 日本語版
+- URL：https://jstqb.jp/dl/JSTQB-SyllabusFoundation_VersionV40.J02.pdf
+- 読んだ範囲：なし（公式サイトから PDF を取得できたが、AI の道具では本文を読み取れなかった）
+- 二次情報で見たこと：Version 2023V4.0.J02 が公式サイトで無料公開されている。無断での複製は禁じられている。
+- 扱い：テスト工程の種類と、各工程が何を基にテストするかを確かめるために使う予定。別の方法で本文を読む。
