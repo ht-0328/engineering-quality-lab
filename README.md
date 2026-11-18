@@ -25,22 +25,10 @@ AIに設計書を作らせたり、レビューや調査をさせたりするこ
 - 職場の資料・コード・機密情報は置きません。検証には架空のサンプルを使います。
 - 有償の規格や書籍の本文は、長く書き写しません。
 
-## 読む順番
+## 読み方
 
-1. [docs/method.md](docs/method.md)：進め方（問いの立て方、根拠の確かめ方、終わらせ方）
-2. [docs/topics/requirements-definition/index.md](docs/topics/requirements-definition/index.md)：最初のテーマの調査計画
-3. [docs/sources.md](docs/sources.md)：情報源と、どこまで実際に読めたかの記録
-4. [docs/decisions.md](docs/decisions.md)：重要な判断と理由
+- 公開サイト：<https://ht-0328.github.io/engineering-quality-lab/>
+- 手元で見る：`uvx zensical serve` を実行し、ブラウザで <http://localhost:8000> を開きます（[uv](https://docs.astral.sh/uv/) が必要です）。
+- 入口のページ：[docs/index.md](docs/index.md)（読む順番、テーマ一覧、現在地）
 
 AI向けの作業ルールは [CLAUDE.md](CLAUDE.md) にあります。
-
-## 現在地（2026-11-18）
-
-- 基盤（進め方と記録の置き場所）を作りました。
-- 最初のテーマ「良い要件定義書とは何か」は、調査計画までです。問いの調査はまだ始めていません。
-
-## テーマ一覧
-
-| テーマ | 状態 |
-|---|---|
-| [良い要件定義書とは何か](docs/topics/requirements-definition/index.md) | 計画まで |
