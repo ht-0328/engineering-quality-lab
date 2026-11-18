@@ -1,2 +1,5 @@
 # Zensical が生成する Web ページ
 site/
+
+# Python が生成する一時ファイル
+__pycache__/
