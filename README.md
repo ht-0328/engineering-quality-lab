@@ -28,7 +28,7 @@ AIに設計書を作らせたり、レビューや調査をさせたりするこ
 ## 読む順番
 
 1. [docs/method.md](docs/method.md)：進め方（問いの立て方、根拠の確かめ方、終わらせ方）
-2. [topics/requirements-definition/README.md](topics/requirements-definition/README.md)：最初のテーマの調査計画
+2. [docs/topics/requirements-definition/index.md](docs/topics/requirements-definition/index.md)：最初のテーマの調査計画
 3. [docs/sources.md](docs/sources.md)：情報源と、どこまで実際に読めたかの記録
 4. [docs/decisions.md](docs/decisions.md)：重要な判断と理由
 
@@ -43,4 +43,4 @@ AI向けの作業ルールは [CLAUDE.md](CLAUDE.md) にあります。
 
 | テーマ | 状態 |
 |---|---|
-| [良い要件定義書とは何か](topics/requirements-definition/README.md) | 計画まで |
+| [良い要件定義書とは何か](docs/topics/requirements-definition/index.md) | 計画まで |
