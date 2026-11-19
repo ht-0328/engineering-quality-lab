@@ -13,10 +13,10 @@
 
 | テーマ | 状態 |
 |---|---|
-| [良い要件定義書とは何か](topics/requirements-definition/index.md) | 計画まで |
+| [良い要件定義書とは何か](topics/requirements-definition/index.md) | 説明ページ1つ目を作成中 |
 
 ## 現在地（2026-11-19）
 
 - 基盤（進め方と記録の置き場所）を作りました。
 - 文書を Web ページとして読めるようにしました。
-- 最初のテーマ「良い要件定義書とは何か」は、調査計画までです。
+- 最初のテーマ「良い要件定義書とは何か」は、説明ページの1つ目「[全体のつながり](topics/requirements-definition/01-overall-links.md)」を作りました。理解の確認がまだです。

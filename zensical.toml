@@ -14,7 +14,16 @@ nav = [
   { "ホーム" = "index.md" },
   { "進め方" = "method.md" },
   { "テーマ" = [
-    { "良い要件定義書とは何か" = "topics/requirements-definition/index.md" },
+    { "良い要件定義書とは何か" = [
+      { "調査計画" = "topics/requirements-definition/index.md" },
+      { "1. 全体のつながり" = "topics/requirements-definition/01-overall-links.md" },
+      { "実例：会議室予約" = [
+        { "要件定義書" = "topics/requirements-definition/examples/meeting-room/requirements.md" },
+        { "設計書" = "topics/requirements-definition/examples/meeting-room/design.md" },
+        { "実装とテストコード" = "topics/requirements-definition/examples/meeting-room/implementation.md" },
+        { "テスト仕様書" = "topics/requirements-definition/examples/meeting-room/test-spec.md" },
+      ] },
+    ] },
   ] },
   { "情報源台帳" = "sources.md" },
   { "判断の記録" = "decisions.md" },
@@ -113,7 +122,9 @@ pymdownx.keys = {}
 pymdownx.magiclink = {}
 pymdownx.mark = {}
 pymdownx.smartsymbols = {}
-# pymdownx.snippets.base_path = "includes"
+# 実例のコードを、ファイルから文書に埋め込むための設定
+pymdownx.snippets.base_path = "."
+pymdownx.snippets.check_paths = true
 pymdownx.superfences.custom_fences = [
   { name = "mermaid", class = "mermaid", format = "pymdownx.superfences.fence_code_format" },
 ]
